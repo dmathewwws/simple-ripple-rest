@@ -1,0 +1,7 @@
+rest:
+  build: .
+  command: node server.js
+  volumes:
+    - .:/srv/ripple/ripple-rest
+  ports:
+    - "5990:5990"
